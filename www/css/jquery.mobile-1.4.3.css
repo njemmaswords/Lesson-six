@@ -1125,7 +1125,7 @@ html .ui-bar-b .ui-body-inherit,
 html .ui-body-b .ui-body-inherit,
 html body .ui-group-theme-b .ui-body-inherit,
 html .ui-panel-page-container-b {
-	background-color: 			indigo /*{b-body-background-color}*/;
+	background-color: 			#2a2a2a /*{b-body-background-color}*/;
 	border-color:	 		#1d1d1d /*{b-body-border}*/;
 	color: 					#fff /*{b-body-color}*/;
 	text-shadow: 0 /*{b-body-shadow-x}*/ 1px /*{b-body-shadow-y}*/ 0 /*{b-body-shadow-radius}*/ 	#111 /*{b-body-shadow-color}*/;
@@ -1467,7 +1467,6 @@ div.ui-mobile-viewport {
 .ui-header:empty,
 .ui-footer:empty {
 	min-height: 2.6875em;
-	Background-color:red;
 }
 .ui-header .ui-title,
 .ui-footer .ui-title {
@@ -2662,7 +2661,6 @@ li.ui-block-e {
 .ui-footer-fixed.ui-fixed-hidden {
 	bottom: 0;
 	padding-bottom: 0;
-	
 }
 .ui-header-fullscreen,
 .ui-footer-fullscreen {
@@ -2686,7 +2684,6 @@ li.ui-block-e {
 /* Tap toggle: hide external fixed footer. See issue #6604 */
 .ui-footer-fixed.ui-fixed-hidden {
   display: none;
-  Background-color:teal;
 }
 .ui-page .ui-footer-fixed.ui-fixed-hidden {
   display: block
@@ -2748,7 +2745,6 @@ li.ui-block-e {
 .ui-content .ui-navbar .ui-grid-duo .ui-block-b .ui-btn {
 	border-right-width: 1px;
 	margin-right: 0;
-	Background-color:teal;
 }
 .ui-content .ui-navbar li:last-child .ui-btn:after,
 .ui-content .ui-navbar .ui-grid-duo .ui-block-b .ui-btn:after {
@@ -3065,7 +3061,6 @@ fieldset.ui-controlgroup {
 	position: relative; 
 	width: auto;
 	margin: 0;
-	Background-color:#96cdcd;
 }
 .ui-dialog-contain > .ui-header {
 	overflow: hidden;
@@ -3081,7 +3076,6 @@ fieldset.ui-controlgroup {
 .ui-popup-open .ui-header-fixed,
 .ui-popup-open .ui-footer-fixed {
 	position: absolute !important; /* See issues #4816, #4844 and #4874 and popup.js */
-	Background-color:#96cdcd;
 }
 .ui-popup-screen {
 	background-image: url("data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="); /* Necessary to set some form of background to ensure element is clickable in IE6/7. While legacy IE won't understand the data-URI'd image, it ensures no additional requests occur in all other browsers with little overhead. */
